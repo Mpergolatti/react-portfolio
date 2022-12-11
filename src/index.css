@@ -19,6 +19,10 @@ code {
     monospace;
 }
 
+.main_body {
+  background-color: var(--primary);
+}
+
 /* Header / Nav section */
 a:link {
   text-decoration: none;
@@ -64,9 +68,10 @@ a:hover {
 
 .username {
   border: 2px solid red;
-  padding: 5px 20px;
+  padding: 0 20px;
   color: var(--primary);
   font-size: 40px;
+  
 }
 
 /* About me section */
@@ -87,3 +92,12 @@ a:hover {
   max-width: 300px;
 }
 
+/* Portfolio Section */
+
+#portfolio {
+  margin: 20px 0;
+}
+
+#image1 {
+  max-width: 350px;
+}
